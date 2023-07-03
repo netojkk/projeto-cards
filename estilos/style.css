@@ -15,18 +15,24 @@
     margin:0;
     padding:0;
 }
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
 body {
     background-color: #F2F2F2;
     font-family:  'Barlow', sans-serif;
 
 }
 main {
-    margin: 50px 20px;
+    height: 100%;
+    
+    margin: 50px;
 }
 main > .box {
-    height:80vh;
+    height: 80vh;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.205);
-
+    
 }
 .box > img {
     width: 190px;
@@ -55,15 +61,17 @@ main > .box {
 #box-escuro {
     background: #003F3E;
     border-radius: 0px 0px 20px 20px;
+    
 }
 .botao {
     display: block;
     text-decoration: none;
     color: white;
     text-align: center;
+    padding: 13px;
     margin: 40px;
     width: 150px;
-    height:60px;
+    height:50px;
     
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.233);
     border-radius: 20px;
@@ -94,7 +102,7 @@ main > .box {
 }
 #botao-e {
     color: #003F3E;
-    padding: 20px;
+    
 }
 #botao-e:hover {
     color: white;
@@ -109,7 +117,4 @@ main > .box {
     
     margin-top: 50px;
     margin-bottom: -20px;
-}
-@media screen and (orientation: max:width) {
-    
 }
