@@ -36,12 +36,13 @@ main {
 }
 .box h1 {
     padding: 20px 40px;
+    font-size: 2.2em;
 }
 .box p {
     text-align: justify;
     padding: 0px 40px;
     margin-bottom: 60px;
-    
+    font-size: 1.2em;
 }
 #box-laranja {
     background-color: #E38525;
@@ -70,7 +71,7 @@ main {
     border-radius: 20px;
     background-color:#F2F2F2 ;
     
-    transition: .3s, width 160px, height 70px;
+    transition: .2s;
     
 }
 #botao-l {
@@ -80,7 +81,8 @@ main {
 }
 #botao-l:hover {
     color: white;
-    background-color: #c46200;
+    background-color: transparent;
+    border: 2px solid white;
 }
 #botao-a {
     color: #016871;
@@ -88,7 +90,8 @@ main {
 }
 #botao-a:hover {
     color: white;
-    background-color: #003F3E;
+    background-color: transparent;
+    border: 2px solid white;
 
 }
 #botao-e {
@@ -97,7 +100,8 @@ main {
 }
 #botao-e:hover {
     color: white;
-    background-color: #018f8c;
+    background-color: transparent;
+    border: 2px solid white;
 }
 .logo-carros {
     padding: 50px;
